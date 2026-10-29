@@ -2,20 +2,14 @@
 using namespace std;
 
 int main (){
-    int a, b, c;
+    int a, b, c, sum, avg ;
 
-    cout << "enter first number: " << endl;
-    cin >> a;
+    cout << "enter three numbers: " << endl;
+    cin >> a >> b >> c;
 
-    cout << "enter second number: " << endl;
-    cin >> b;
+    sum = a+b+c;
+    avg = sum/3;
 
-    cout << "enter third number: " << endl;
-    cin >> c;
-
-    cout << "average of three numbers: " << a+b+c / 3 << endl;
-
+    cout << " average: " << avg << endl;
     return 0;
-    
-
 }
