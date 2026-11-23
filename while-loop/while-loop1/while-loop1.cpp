@@ -2,18 +2,16 @@
 using namespace std;
 
 int main (){
-    int num, sum=0;
+    int num;
 
     cout << "enter the number" << "\n";
     cin >> num;
 
     int i=1;
-    while(i<=num);
-    i++;{
-
-    sum +=i;
+    while(i<=num){
+        cout << "hello akib" << "\n";
+        i++;
     }
-    cout << "sum=" << sum << "\n";
 
     return 0;
 }
